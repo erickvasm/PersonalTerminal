@@ -114,10 +114,13 @@ alias ...='cd ../../'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias update='sudo apt update && sudo apt upgrade'
+alias remove='sudo apt remove'
+alias autoremove='sudo apt autoremove'
 alias h='history'
 alias path='echo $PATH | tr : \\n'
 alias gpo='git push origin'
 alias gpo='git pull origin'
+
 
 ### LS & TREE
 alias ll='ls -la'
