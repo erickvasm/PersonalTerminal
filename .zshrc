@@ -123,7 +123,10 @@ alias removerepo='sudo add-apt-repository --remove'
 alias h='history'
 alias path='echo $PATH | tr : \\n'
 alias gpo='git push origin'
-alias gpo='git pull origin'
+alias gp='git pull origin'
+alias gt='git status'
+alias gl='git log --oneline --decorate --graph'
+alias gcm='git commit -m'
 
 
 ### LS & TREE
